@@ -100,7 +100,7 @@ header .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px, 50px, 30px, 50px;
+    /* padding: 30px, 50px, 30px, 50px; */
 }
 
 header .logo img {
@@ -154,7 +154,6 @@ header .menu a:hover::before {
 .info-groupe .head-line h1 {
     margin-bottom: 5px;
     font-size: 22px;
-    line-height: 25, 83px;
     font-weight: 700;
 }
 
