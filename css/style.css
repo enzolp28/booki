@@ -17,6 +17,14 @@
     --filter-bg-color: #DEEBFF;
 }
 
+.box-info .fa-location-dot {
+    color: #000000
+}
+
+.box-info button .fa-magnifying-glass {
+    color: #FFF;
+}
+
 .fa-solid {
     color: var(--main-color);
 }
@@ -550,6 +558,10 @@ footer {
         text-align: center;
     }
 
+    .fa-magnifying-glass {
+        color: #ffffff;
+    }
+
 
     .menu-mobile {
         display: block;
@@ -572,6 +584,7 @@ footer {
     .mobile-cat a {
         text-decoration: none;
         display: block; /* Permet à l'ancre de remplir toute la largeur de son parent */
+        font-weight:500;
     }
 
     .menu-mobile a:hover {
@@ -710,20 +723,5 @@ footer {
     .bloc {
         width: auto;
     }
-
-    /* header .menu a {
-        font-size: 19px;
-    }
-
-    header .menu a:hover::before{
-        content:'';
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        top: 35px;
-        background-color: #0065FC;
-    }
-     */
-    
 
 }
